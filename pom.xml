@@ -5,7 +5,7 @@
 	<groupId>cloud.mt</groupId>
 	<artifactId>maven-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	
 	<name>maven-web-app</name>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>FEWA IT CONSULTING Releases Nexus Repository</name>
-	      <url>http://3.91.151.42:8081/repository/newRelease/</url>
+	      <url>http://172.31.29.16.42:8081/repository/newRelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>FEWA IT CONSULTING Snapshot Nexus Repository </name>
-	      <url>http://3.91.151.42:8081/repository/newSnapshot/</url>
+	      <url>http://172.31.29.16:8081/repository/newSnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
